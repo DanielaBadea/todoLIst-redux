@@ -1,0 +1,63 @@
+.form {
+    display: flex;
+    padding: 30px;
+    width: 30%;
+    align-items: center;
+    justify-content: center;
+    margin: 50px auto;
+    border: 1px solid #0000003d;
+}
+
+.wrapperInput {
+    position: relative;
+    width: 100%; /* Ensure the wrapper takes the full width */
+}
+
+.iconNotes {
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    transform: translateY(-50%);
+    height: 100%;
+    padding: 0 10px;
+    color: white;
+    background-color: var(--greenishBlue);
+}
+
+.labelForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    gap: 10px;
+    font-family: var(--fontTasks);
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.formInput {
+    padding: 5px 15px 5px 40px; 
+    width: 100%; 
+    box-sizing: border-box; 
+}
+.inconAddTask{
+    margin-right: 5px;
+}
+
+.btnForm {
+    padding: 8px;
+    background-color: var(--btnBgColor);
+    color: var(--btnColor);
+    font-family: var(--fontApp);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    transition:  background-color 0.3s ease-in-out ;
+    cursor: pointer;
+}
+
+.btnForm:hover,
+.btnForm:focus {
+    background-color: var(--btnBgColorHover);
+}

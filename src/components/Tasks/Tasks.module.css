@@ -1,0 +1,61 @@
+.wrapperTasksList{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 10px 20px;
+    border: 1px solid;
+    width: 31%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+.containerTask{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
+.checkInput{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.checkInput:checked + .textTask{
+    text-decoration: line-through;
+    color: #ee7676;
+}
+
+.textTask{
+    font-family: var(--fontTasks);
+    letter-spacing: 0.8px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.btnSatusTask{
+    border: none;
+    background-color: transparent;
+}
+.iconEdit{
+    color: #ffa500;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.iconEdit:focus,
+.iconEdit:hover {
+    transform: translateX(4px) scale(1.3);
+    outline: none; 
+}
+.iconDelete {
+    color: #ff0000;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.iconDelete:focus,
+.iconDelete:hover {
+    transform: translateX(4px) scale(1.3);
+    outline: none; 
+}

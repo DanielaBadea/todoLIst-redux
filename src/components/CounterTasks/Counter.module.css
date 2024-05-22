@@ -1,0 +1,15 @@
+.wrapperCounter{
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    gap: 8px;
+    width: 33%;
+    justify-content: center;
+}
+.text{
+    margin: 0;
+}
+.spanText{
+    color: var(--colorCounterText);
+    font-weight: 500;
+}

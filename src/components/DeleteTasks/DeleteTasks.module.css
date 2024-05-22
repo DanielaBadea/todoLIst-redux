@@ -1,0 +1,30 @@
+.containerBtnsDelete{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.containerBtnsDeleteTask{
+    display: flex;
+    width: 33%;
+    justify-content: space-between;
+}
+.btnsdeleteTasks{
+    padding: 10px 80px;
+    background-color:var(--btnDeteleBgColor);
+    color: var(--btnColor);
+    border: 0;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    transition: background-color 0.2s ease-in-out;
+    cursor: pointer;
+}
+.btnsdeleteTasks:hover,
+.btnsdeleteTasks:active{
+    background-color: #cc3030;
+}
+
+
+
+    

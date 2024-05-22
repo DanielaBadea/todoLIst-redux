@@ -1,5 +1,15 @@
 @import-normalize; /* bring in normalize.css styles */
+:root{
+  --btnBgColor:#3393a0;
+  --btnColor: #ffff;
+  --btnBgColorHover: #2e7a85;
+  --fontApp: 'Roboto', 'sans-serif';
+  --fontTasks: "Indie Flower", 'cursive';
+  --greenishBlue: #3393a0;
+  --btnDeteleBgColor: #df1515;
+  --colorCounterText: #e9972e
 
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

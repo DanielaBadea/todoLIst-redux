@@ -1,0 +1,8 @@
+.mainLayout{
+    display: flex;
+    flex-direction: column;
+}
+.titleTodoList{
+    text-align: center;
+    margin: 0;
+}
