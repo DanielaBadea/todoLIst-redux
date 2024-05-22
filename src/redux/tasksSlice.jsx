@@ -13,7 +13,7 @@ const tasksSlice = createSlice({
     reducers: {
         addTask: {
             reducer(state, action){
-                state.items.push(action.payload);
+                state.items.unshift(action.payload);
             },
             prepare(text){
                 return{
@@ -35,11 +35,17 @@ const tasksSlice = createSlice({
                 state.items[index].text = text;
             }
         },
-        toggleTask(state, action){
+        toggleTask(state, action) {
             const id = action.payload;
             const task = state.items.find(task => task.id === id);
             if (task) {
                 task.done = !task.done;
+                state.items = state.items.filter(task => task.id !== id);
+                if (task.done) {
+                    state.items.push(task);  // Move to end if done
+                } else {
+                    state.items.unshift(task);  // Move to start if not done
+                }
             }
         },
         deletedAllTaskDone(state) {
