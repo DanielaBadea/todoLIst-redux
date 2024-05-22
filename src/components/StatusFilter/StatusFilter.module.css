@@ -1,13 +1,15 @@
-.wrapperFilters{
+.wrapperFilters {
     display: flex;
     align-items: center;
-    width: 33%;
+    width: 100%;
+    max-width: 600px; 
     justify-content: space-between;
     margin: 25px auto;
 }
-.btnFilter{
-    padding: 10px 80px;
-   font-weight: 600;
+
+.btnFilter {
+    padding: 10px 80px; 
+    font-weight: 600;
     font-size: 16px;
     border: none;
     background-color: var(--btnBgColor);
@@ -16,11 +18,13 @@
     border-radius: 5px;
     cursor: pointer;
 }
+
 .btnFilter:hover,
-.btnFilter:focus{
+.btnFilter:focus {
     background-color: var(--btnBgColorHover);
 }
+
 .btnFilter.selected {
     background-color: #237eb3;
-    color: white;
+    color: var(--btnColor);
 }

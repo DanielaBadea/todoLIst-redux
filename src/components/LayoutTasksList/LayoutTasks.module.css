@@ -1,8 +1,14 @@
-.mainLayout{
+.mainLayout {
     display: flex;
     flex-direction: column;
+    padding: 20px;
+    width: 100%;
+    max-width: 620px;
+    margin: 0 auto;
+    border: 1px solid #00000030;
 }
-.titleTodoList{
+
+.titleTodoList {
     text-align: center;
     margin: 0;
 }

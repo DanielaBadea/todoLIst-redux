@@ -1,15 +1,24 @@
-.wrapperCounter{
+.wrapperCounter {
     display: flex;
     flex-direction: column;
     margin: 20px auto;
     gap: 8px;
-    width: 33%;
+    width: 90%;
+    max-width: 600px;
     justify-content: center;
 }
-.text{
+
+.text {
     margin: 0;
 }
-.spanText{
+
+.spanText {
     color: var(--colorCounterText);
-    font-weight: 500;
+    font-weight: 600;
+    margin-right: 8px;
+    font-family: var(--fontTasks);
+}
+.dataCounter{
+    font-family: var(--fontTasks);
+    font-size: 18px;
 }

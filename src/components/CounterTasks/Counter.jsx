@@ -17,8 +17,8 @@ const Counter = () => {
 
     return(
         <div className={css.wrapperCounter}>
-        <p className={css.text}><span className={css.spanText}>Tasks active:  </span>{counter.todo}</p>
-        <p className={css.text}><span className={css.spanText}>Tasks done: </span>{counter.done}</p>
+        <p className={css.text}><span className={css.spanText}>Tasks active :</span> <span className={css.dataCounter}>{counter.todo}</span></p>
+        <p className={css.text}><span className={css.spanText}>Tasks done :</span><span className={css.dataCounter}>{counter.done}</span></p>
       </div>
     )
 }

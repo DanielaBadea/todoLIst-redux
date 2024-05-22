@@ -10,6 +10,25 @@
   --colorCounterText: #e9972e
 
 }
+@media (max-width: 768px) {
+  .form,
+  .wrapperCounter,
+  .wrapperFilters,
+  .wrapperTasksList,
+  .containerBtnsDeleteTask {
+      width: 100%;
+  }
+
+  .btnFilter,
+  .btnsdeleteTasks {
+      padding: 10px;
+      width: 100%;
+  }
+
+  .btnFilter {
+      font-size: 14px;
+  }
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

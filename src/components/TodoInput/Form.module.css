@@ -1,7 +1,8 @@
 .form {
     display: flex;
     padding: 30px;
-    width: 30%;
+    width: 90%;
+    max-width: 600px; 
     align-items: center;
     justify-content: center;
     margin: 50px auto;
@@ -10,7 +11,7 @@
 
 .wrapperInput {
     position: relative;
-    width: 100%; /* Ensure the wrapper takes the full width */
+    width: 100%; 
 }
 
 .iconNotes {
@@ -40,7 +41,8 @@
     width: 100%; 
     box-sizing: border-box; 
 }
-.inconAddTask{
+
+.inconAddTask {
     margin-right: 5px;
 }
 
@@ -53,7 +55,7 @@
     justify-content: center;
     align-items: center;
     border: none;
-    transition:  background-color 0.3s ease-in-out ;
+    transition: background-color 0.3s ease-in-out;
     cursor: pointer;
 }
 

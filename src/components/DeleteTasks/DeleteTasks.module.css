@@ -11,7 +11,25 @@
 }
 .btnsdeleteTasks{
     padding: 10px 80px;
-    background-color:var(--btnDeteleBgColor);
+}
+
+.containerBtnsDelete {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.containerBtnsDeleteTask {
+    display: flex;
+    width: 90%; 
+    max-width: 600px; 
+    justify-content: space-between;
+}
+
+.btnsdeleteTasks {
+    padding: 10px 80px; 
+    background-color: var(--btnDeteleBgColor);
     color: var(--btnColor);
     border: 0;
     border-radius: 5px;
@@ -20,11 +38,10 @@
     transition: background-color 0.2s ease-in-out;
     cursor: pointer;
 }
+
 .btnsdeleteTasks:hover,
-.btnsdeleteTasks:active{
+.btnsdeleteTasks:active {
     background-color: #cc3030;
 }
-
-
 
     
