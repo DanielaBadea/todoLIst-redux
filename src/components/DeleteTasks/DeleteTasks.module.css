@@ -44,7 +44,7 @@
 .btnsdeleteTasks:active {
     background-color: #cc3030;
 }
-@media (max-width: 320px) {
+@media (max-width: 768px) {
     .containerBtnsDeleteTask{
         flex-direction: column;
 
