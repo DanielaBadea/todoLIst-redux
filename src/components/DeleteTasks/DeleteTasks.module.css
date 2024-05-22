@@ -25,6 +25,7 @@
     width: 90%; 
     max-width: 600px; 
     justify-content: space-between;
+    flex-direction: row;
 }
 
 .btnsdeleteTasks {
@@ -43,5 +44,15 @@
 .btnsdeleteTasks:active {
     background-color: #cc3030;
 }
+@media (max-width: 320px) {
+    .containerBtnsDeleteTask{
+        flex-direction: column;
 
+    }
+    .btnsdeleteTasks{
+        padding: 8px;
+        margin-bottom: 10px;
+        
+    }
+}
     

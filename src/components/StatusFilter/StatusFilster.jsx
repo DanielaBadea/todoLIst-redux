@@ -19,7 +19,7 @@ const StatusFilter = () => {
                 className={`${css.btnFilter} ${currentFilter === statusFilters.all ? css.selected : ''}`}
                 onClick={() => handleChangeStatusFilter(statusFilters.all)}
             >
-                All
+                All     
             </button>
             <button
                 className={`${css.btnFilter} ${currentFilter === statusFilters.done ? css.selected : ''}`}

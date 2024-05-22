@@ -2,13 +2,21 @@
     display: flex;
     align-items: center;
     width: 100%;
-    max-width: 600px; 
+    max-width: 600px;
     justify-content: space-between;
+    flex-direction: row;
     margin: 25px auto;
+    gap: 10px; 
+}
+@media (max-width: 320px) {
+    .wrapperFilters {
+        flex-direction: column;
+        gap: 10px;
+    }
 }
 
 .btnFilter {
-    padding: 10px 80px; 
+    padding: 10px 20px; 
     font-weight: 600;
     font-size: 16px;
     border: none;
@@ -17,6 +25,9 @@
     transition: background-color 0.2s ease-in-out;
     border-radius: 5px;
     cursor: pointer;
+    width: 100%; 
+    flex: 1; /* Împarte spațiul uniform între butoane */
+    text-align: center; /* Asigură-te că textul este centrat */
 }
 
 .btnFilter:hover,
@@ -27,4 +38,18 @@
 .btnFilter.selected {
     background-color: #237eb3;
     color: var(--btnColor);
+}
+
+@media (max-width: 768px) {
+    .btnFilter {
+        padding: 10px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .btnFilter {
+        padding: 10px;
+        font-size: 16px;
+    }
 }

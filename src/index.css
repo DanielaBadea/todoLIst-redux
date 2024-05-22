@@ -10,7 +10,7 @@
   --colorCounterText: #e9972e
 
 }
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
   .form,
   .wrapperCounter,
   .wrapperFilters,
@@ -26,6 +26,50 @@
   }
 
   .btnFilter {
+      font-size: 14px;
+  }
+}
+
+@media (max-width: 740px) {
+  .form,
+  .wrapperCounter,
+  .wrapperFilters,
+  .wrapperTasksList,
+  .containerBtnsDeleteTask {
+      width: 100%;
+  }
+
+  .btnFilter,
+  .btnsdeleteTasks {
+      padding: 10px;
+      width: 100%;
+  }
+
+  .btnFilter {
+      font-size: 14px;
+  }
+}
+
+@media (max-width: 320px) {
+  .form,
+  .wrapperCounter,
+  .wrapperFilters,
+  .wrapperTasksList,
+  .containerBtnsDeleteTask {
+      width: 100%;
+  }
+
+  .btnFilter,
+  .btnsdeleteTasks {
+      padding: 8px;
+      width: 100%;
+  }
+
+  .btnFilter {
+      font-size: 12px;
+  }
+
+  .textTask {
       font-size: 14px;
   }
 }
